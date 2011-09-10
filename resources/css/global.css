@@ -1,0 +1,98 @@
+body{
+	background-image:url('../../images/background-main.png');
+}
+
+h1{
+	font-family: arial;
+}
+
+/* image styles */
+.main-content-image{
+	vertical-align:-40px;
+	padding-left: 10px;	
+	float: left;
+}
+
+.main-logo-image{
+	padding-left:40px;
+	vertical-align: middle;
+}
+
+
+/* paragraph styling */
+.main-content-para{
+	font-family: arial;
+	font-size: 14pt;
+	color: #CCC;
+	text-align: right;
+	padding-right: 50px;
+}
+
+
+/* div styles */
+
+.main{
+	/* size */
+	width: 900px;
+	height: 500px;
+	
+	/* alignment */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header{
+	/* size */
+	height: 50px;
+
+	/* background */
+	background-image:url("../../images/background-menu.png");
+	
+	/*styling*/
+	border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;	
+	border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;	
+	
+	/* alignment */
+	text-align: middle;
+}
+
+.footer{
+	/* size */
+	width: 900px;
+	height: 20px;
+	
+	/* div background */
+	background-image:url("../../images/background-menu.png");
+	
+	/* div shape */
+	border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;	
+	border-bottom-right-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;	
+	
+}
+
+
+.breaker{
+	background-color: #4e6249;
+	height: 5px;
+}
+.content{
+	background-image:url("../../images/background.png");
+	height: 400px;
+	text-align: middle;
+}
+
+.footer-content{
+	/* height */
+	height: 20px;
+	
+	/* text */	
+	font-family: arial;
+	text-align: right;
+	vertical-align: text-bottom;
+	font-size: 8pt;
+	padding-right: 20px;
+}
